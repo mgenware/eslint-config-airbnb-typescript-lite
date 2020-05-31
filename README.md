@@ -10,10 +10,10 @@ If you have any questions regarding ESLint rules, please file issues or PRs to t
 
 ## Usage
 
-Install `eslint-config-airbnb-typescript-lite` instead of the original repo:
+Install `eslint-config-airbnb-typescript-lite` and its peer dependencies:
 
 ```sh
-yarn add eslint-config-airbnb-typescript-lite -D
+yarn add eslint-config-airbnb-typescript-lite eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
 ```
 
 Use this fork in `.eslintrc.js`:
