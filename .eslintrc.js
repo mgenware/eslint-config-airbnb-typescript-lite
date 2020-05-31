@@ -1,6 +1,7 @@
 module.exports = {
-  extends: ['./base.js', 'prettier', 'prettier/@typescript-eslint'],
+  extends: ['./base.js'],
   parserOptions: {
     project: './tsconfig.json',
   },
+  rules: { 'max-len': 'off' },
 };
