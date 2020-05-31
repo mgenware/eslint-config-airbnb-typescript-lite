@@ -16,7 +16,7 @@
   "scripts": {
     "lint": "eslint --max-warnings 0 ./lib ./base.js",
     "prepublishOnly": "yarn validate",
-    "validate": "yarn lint"
+    "test": "yarn lint"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^14.1.0"
