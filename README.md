@@ -7,3 +7,20 @@
 Fork of https://github.com/iamturns/eslint-config-airbnb-typescript. Removed `eslint-config-airbnb` as a dependency.
 
 If you have any questions regarding ESLint rules, please file issues or PRs to the [original repo](https://github.com/iamturns/eslint-config-airbnb-typescript).
+
+## Usage
+
+Install `eslint-config-airbnb-typescript-lite` instead of the original repo:
+
+```sh
+yarn add eslint-config-airbnb-typescript-lite -D
+```
+
+Use this fork in `.eslintrc.js`:
+
+```js
+module.exports = {
+  extends: ['airbnb-typescript-lite', 'plugin:@typescript-eslint/recommended'],
+  /** Omitted for simplicity */
+};
+```
