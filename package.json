@@ -19,12 +19,12 @@
     "format:eslint": "eslint --cache --fix ./ >/dev/null 2>&1 || true",
     "format:package": "prettier-package-json --write",
     "format:prettier": "prettier --write \"**/*.{js,json,md,yml}\" \".editorconfig\" \"LICENSE\"",
-    "lint": "eslint --cache ./",
-    "validate": "npm run lint"
+    "lint": "eslint --max-warnings 0 .",
+    "prepublishOnly": "yarn validate",
+    "validate": "yarn lint"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^2.24.0",
-    "eslint-config-airbnb": "^18.1.0",
     "eslint-config-airbnb-base": "^14.1.0"
   },
   "peerDependencies": {
