@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-airbnb-typescript",
+  "name": "eslint-config-airbnb-typescript-lite",
   "description": "Airbnb's ESLint config with TypeScript support",
   "license": "MIT",
   "author": "Matt Turnbull <matt@iamturns.com> (https://iamturns.com)",
@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/iamturns/eslint-config-airbnb-typescript/issues"
   },
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "main": "base.js",
   "scripts": {
     "lint": "eslint --max-warnings 0 .",
