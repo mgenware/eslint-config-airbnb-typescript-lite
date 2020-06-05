@@ -6,10 +6,10 @@
   "homepage": "https://github.com/iamturns/eslint-config-airbnb-typescript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iamturns/eslint-config-airbnb-typescript.git"
+    "url": "https://github.com/mgenware/eslint-config-airbnb-typescript-lite.git"
   },
   "bugs": {
-    "url": "https://github.com/iamturns/eslint-config-airbnb-typescript/issues"
+    "url": "https://github.com/mgenware/eslint-config-airbnb-typescript-lite/issues"
   },
   "version": "0.1.2",
   "main": "base.js",
