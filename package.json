@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/mgenware/eslint-config-airbnb-typescript-lite/issues"
   },
-  "version": "0.2.0",
+  "version": "9.0.0",
   "main": "base.js",
   "scripts": {
     "lint": "eslint --max-warnings 0 ./",
